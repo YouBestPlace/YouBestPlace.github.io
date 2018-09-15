@@ -1,0 +1,229 @@
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+
+.window .col-md-4 {
+	height: 480px;
+	width: 320px;
+	padding: 0;
+	margin: 0 40px;
+}
+
+.bg_top {
+	background:url(../img/bg-top.jpg) no-repeat;
+	min-height: 620px;
+	background-position: top center;
+	position: relative;
+}	
+
+.icon_menu {
+	display: none;
+	height: 30px;
+	width: 20px;
+	float: left;
+	padding:10px 0;
+	cursor: pointer;
+	margin-right: 10px;
+
+}
+
+.divide {
+	display: block;
+	height: 2px;
+	margin: 3px 0;
+	background: #f1f1f1;
+	border-radius: 8px;
+}
+
+.top_line {	
+	min-height: 90px;
+	max-width: 1280px;
+	margin: auto;
+	-moz-box-shadow: rgba(255,255,255,.3) 0 0 0 2px;
+	-o-box-shadow: rgba(255,255,255,.3) 0 0 0 2px;
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 2px;
+	box-shadow: rgba(255,255,255,.4) 0 0 0 2px;
+	background-color: rgba(153,153,153, .60);
+}
+
+.logo {
+
+}
+
+.logo h1 {
+	font-size: 45px;
+	color: #ffffff;
+	font-family: "ChristmasRegular";
+	padding-top: 30px;
+}
+
+.top_mnu {
+	min-height: 40px;
+	max-width: 1280px;
+	margin: auto;
+	background-color: #333333;
+	font-family: "BebasReular";
+	overflow: hidden;
+}
+
+.top_mnu li a:hover {
+		color: #666;
+	}
+
+.visible {
+	text-align: center;
+	max-width: 1280px;
+}
+
+.visible li {
+	display: inline-block;
+	font-size: 30px;
+	padding-right: 40px;
+	padding-top: 5px;
+	font-family: "BebasRegular";
+
+}
+
+.visible li a {
+	color: #fff;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+
+}
+
+.bot_mnu {
+	max-width: 1280px;
+	margin: auto;
+	background: url(../img/main-bg.jpg) repeat;
+	padding-bottom: 50px;
+}
+
+.top_sea {
+
+}
+
+.top_sea h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "BebasRegular";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #333333;
+}
+
+.top_sea ul {
+	text-align: center;
+}
+
+.top_sea ul li {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.top_sea p {	
+	font-family: "lobsterRegular";
+
+}
+
+.descr {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .5);
+	color: #fff;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 18px;
+	opacity: 0;
+	transform: ;
+	-webkit-transition: all .35s;
+	transition: all .35s;
+	font-family: "BebasRegular";
+}
+
+.top_sea li:hover .descr {
+	opacity: 1;
+	top: 0;
+}
+
+.bot_sea ul {
+	text-align: center;
+}
+
+article h1 {
+	font-size: 35px;
+	font-family: "lobsterRegular";
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+article h2 {
+	font-size: 21px;
+	font-family: "lobsterRegular";
+}
+
+article img {
+	padding: 10px 10px;
+}
+
+article p {
+font-size: 17px;
+text-align: justify;
+}
+
+.content {
+	padding-bottom: 30px;
+	border-bottom: 1px solid silver;
+	max-width: 1280px;
+	margin: auto;
+}
+
+#toTop {
+	width: 100px;
+	border: 2px solid #333333;
+	background:#f7f7f7;
+	text-align: center;
+	padding:5px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	color: #333333;
+	font-family: "lobsterRegular";
+	font-size: 20px; 
+}
+
+.footer_mnu {
+	max-width: 1280px;
+	background:url(../img/footer_bg.png) repeat;
+	text-align: center;
+	margin:auto;
+}
+
+
+.footer_mnu img {
+	width: 120px;
+	height: 70px;
+	padding-top: 5px;
+	
+}
+
+.footer_mnu p {
+	font-family: "Poiret One Normal";
+	font-size: 16px;
+	color: #fff;
+	padding-top: 33px;
+
+}

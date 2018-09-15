@@ -1,0 +1,119 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.content {
+	text-align: center;
+	}
+	
+	.logo {
+	  	text-align: center;
+	  }
+	  .footer {
+	  	text-align: center;
+	}
+
+	article .cent {
+		text-align: center;
+	}
+	
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_mnu{
+		padding: 10px 0;
+	}
+	.top_mnu li{
+	padding-right: 0;
+	}
+	.top_mnu li:hover {
+		background-color: #666;
+	}
+	.top_mnu li a {
+		display: block;
+	}
+	.top_mnu li a:hover {
+		color: #fff;
+	}
+	.icon_menu {
+	 	display: block;
+	} 
+	.visible {
+		position: relative;
+		left: -250px;
+		width: 191px;
+		height: 100%;
+		max-height: 40px;
+		line-height: 30px;
+		padding-right: 10px;	
+	}
+	.visible li {
+		display: block;
+		border:1px solid #fff;
+		border-radius: 5px;
+
+	}		
+	.visible.active{
+		left: 0;
+		display: inline-block;
+	}
+  	.logo {
+  	text-align: center;
+  	}
+  	.logo h1 {
+	text-align: center;
+	}
+	 .footer img {
+	  	text-align: center;
+	}
+	.footer h3 {
+		text-align: center;
+	  	float: none;
+	}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	h1 {
+	text-align: center;
+	  }
+	  
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,50 @@
+.global {
+	width: 875px;
+	text-align: center;
+}
+p {
+	display: inline-block;
+	font-size: 35px;
+}
+#btn_out {
+	position: absolute;
+ 	left: 180px;
+ 	top: 67px;
+}
+#btn_out_2{
+	position: absolute;
+ 	left: 340px;
+ 	top: 67px;
+ 	display: none;
+}
+#out {
+	display: inline-block;
+ 	font-size: 30px;
+}
+.canvas_pos {
+	position: relative;
+}
+#cnvs{
+	width: 875px;
+	height: 400px;
+    /*background: url(http://tutorial.promo.net.ua/images/js/setka2.png);*/
+    background: url(../img/sprite.png) 14px 179px no-repeat;
+ }
+ #inp, #inp_2 {
+ 	width: 12px;
+ 	border-radius: 4px;
+ }
+ #finish {
+ 	font-size: 30px;
+ 	width: 40px;
+ 	height: 20px;
+ 	border-radius: 4px;
+ 	display: none;
+ }
+ #btn_3{
+ 	display: none;
+ 	font-size: 18px;
+ 	top: 50px;
+ 	left: 518px;
+ 	position: absolute;
+ }
