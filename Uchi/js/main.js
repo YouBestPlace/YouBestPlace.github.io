@@ -31,7 +31,7 @@ function arc(n1, n2) {
 	ctx.lineTo(x2_1-4,y0 - 10);
 	ctx.lineTo(x2_1, y0);
 	ctx.lineWidth = 2;
-	ctx.strokeStyle = "#E33A97"
+	ctx.strokeStyle = "##B65D7B"
 	ctx.stroke();
 }
 
@@ -57,7 +57,7 @@ function arc_2(n1, n2) {
 	ctx.lineTo(x2-4,y0 - 10);
 	ctx.lineTo(x2, y0);
 	ctx.lineWidth = 2;
-	ctx.strokeStyle = "#E33A97"
+	ctx.strokeStyle = "#B65D7B"
 	ctx.stroke();
 }
 arc_2(100,117);
