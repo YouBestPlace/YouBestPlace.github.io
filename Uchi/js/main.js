@@ -26,15 +26,12 @@ function arc(n1, n2) {
 	ctx.beginPath();
 	ctx.moveTo(x1_1,y0);
 	ctx.quadraticCurveTo(px, h, x2_1, y0);
-	ctx.strokeStyle = "black"
-	ctx.stroke();
-	ctx.lineWidth = 1;
-	ctx.beginPath();
 	ctx.lineTo(x2_1 - 10,y0 - 5);
 	ctx.lineTo(x2_1 ,y0 );
 	ctx.lineTo(x2_1-4,y0 - 10);
 	ctx.lineTo(x2_1, y0);
-	ctx.strokeStyle = "red"
+	ctx.lineWidth = 2;
+	ctx.strokeStyle = "#E33A97"
 	ctx.stroke();
 }
 
