@@ -115,6 +115,27 @@ body  {
 	max-width: 1280px; 
 }
 
+.small_devices {
+	display: none;
+	margin:0 auto;
+}
+
+.small_devices img {
+	max-width: 400px;
+	width: 100%;
+}
+
+.medium_devices{
+	display: none;
+	margin:0 auto;
+}
+
+.medium_devices img {
+	max-width: 768px;
+	width: 100%;
+}
+
+
 .slider {
 	max-width: 1280px;
 	max-height: 619px;
