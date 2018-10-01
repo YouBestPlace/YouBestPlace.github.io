@@ -23,7 +23,7 @@
 		padding: 15px 7px;
 	}
 	.phone_menu{
-		padding: 0 66px 17px 0;
+		padding: 10px 40px 0 0;
 	}
 
 	.phone{
@@ -58,7 +58,7 @@
 	}
 
 	.visor ul li {
-		margin: 0 38px;
+		margin: 0 auto;
 	}
 
 	.visor ul li:nth-child(3) {
@@ -105,31 +105,44 @@
 	.left, .right {
     display: none;
 	}
+	table thead {
+	  	font-size: 16px;
+	  }
+
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	
-		h1 {
-			text-align: center;
-	  	}
-	  .phn_btn_ball	{
-	  		max-width: 330px;
-	  		max-height: 300px;
-	  		padding: 17px 1px 1px 1px;
-	  		line-height: 53px;
+	h1 {
+		text-align: center;
 	  }
-	  .phn_btn .phone_2 {
-	    background: url(../img/phone_2.png) 50px no-repeat;
-
-	  .phn_btn p, .phn_btn .phone_2, .phn_btn .mail	{
-	  	font-size: 23px;
-	  }
-
+	.phn_btn_ball {
+    	max-width: 330px;
+    	max-height: 300px;
+    	padding: 23px 1px 1px 1px;
+    	line-height: 40px;
+	}	
+	.phn_btn .phone_2 {
+	   	background: url(../img/phone_2.png) 50px no-repeat;
+	}
+	.phn_btn p, .phn_btn .phone_2, .phn_btn .mail	{
+	 	font-size: 23px;
+	}
+	table thead {
+	  	font-size: 16px;
+	}
+	.phn_btn_ball {
+    	margin: 0 auto;
+    }
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	table thead {
+	  	font-size: 16px;
+	  }
 }
 
 
