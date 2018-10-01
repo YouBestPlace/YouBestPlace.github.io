@@ -118,11 +118,15 @@
 	h1 {
 		text-align: center;
 	  }
+	.phn_btn {
+	    height: 300px;
+	}
+
 	.phn_btn_ball {
     	max-width: 330px;
     	max-height: 300px;
     	padding: 23px 1px 1px 1px;
-    	line-height: 40px;
+    	line-height: 46px;
 	}	
 	.phn_btn .phone_2 {
 	   	background: url(../img/phone_2.png) 50px no-repeat;
