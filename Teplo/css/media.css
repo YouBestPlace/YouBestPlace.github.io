@@ -57,6 +57,14 @@
 		border-radius: 5px;
 	}
 
+	.visor ul li {
+		margin: 0 38px;
+	}
+
+	.visor ul li:nth-child(3) {
+		margin-top: 16px;
+	}
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -102,10 +110,22 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	
-	h1 {
-	text-align: center;
+		h1 {
+			text-align: center;
+	  	}
+	  .phn_btn_ball	{
+	  		max-width: 330px;
+	  		max-height: 300px;
+	  		padding: 17px 1px 1px 1px;
+	  		line-height: 53px;
 	  }
-	  
+	  .phn_btn .phone_2 {
+	    background: url(../img/phone_2.png) 50px no-repeat;
+
+	  .phn_btn p, .phn_btn .phone_2, .phn_btn .mail	{
+	  	font-size: 23px;
+	  }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
