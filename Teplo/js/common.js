@@ -1,3 +1,31 @@
+$(".item").magnificPopup({
+	type : 'image',
+	gallery : {
+		enabled : true
+	},
+	removaDelay: 300,
+	mainClass: 'mfp-fade'
+});
+
+
+var nav = document.getElementById('nav');
+var submenu = document.getElementById('submenu');
+
+	function showSubMenu() {
+		if (submenu.style.display == 'block') {
+			submenu.style.display = 'none';
+		} else {
+			submenu.style.display = 'block';
+		}
+	}
+	function showMenu() {
+		if (nav.style.display == 'block') {
+			nav.style.display = 'none';
+		} else {
+			nav.style.display = 'block';
+		}
+	}
+	
 document.getElementById('slider_left').onclick = sliderLeft;
 document.getElementById('slider_right').onclick = sliderRight;
 //autoSlider();
@@ -29,22 +57,3 @@ function sliderRight(){
 	polosa.style.left = left +'px';
 	//autoSlider();
 }
-
-
-var nav = document.getElementById('nav');
-var submenu = document.getElementById('submenu');
-
-	function showSubMenu() {
-		if (submenu.style.display == 'block') {
-			submenu.style.display = 'none';
-		} else {
-			submenu.style.display = 'block';
-		}
-	}
-	function showMenu() {
-		if (nav.style.display == 'block') {
-			nav.style.display = 'none';
-		} else {
-			nav.style.display = 'block';
-		}
-	}

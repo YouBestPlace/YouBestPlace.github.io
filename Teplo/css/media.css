@@ -58,12 +58,63 @@
 	}
 
 	.visor ul li {
-		margin: 0 auto;
+		margin: 0 39px;
 	}
 
 	.visor ul li:nth-child(3) {
 		margin-top: 16px;
 	}
+	.benefits {
+		background-color: #DBEEF3;
+		border-radius: 40px;
+		display: block;
+		max-width: 450px;
+		margin: 10px auto;
+		padding-top: 1px;
+		padding-bottom: 10px;
+	}
+
+	.benefits h1 {
+		background-color: #30AD64;
+		padding: 10px 0;
+		margin-top: 20px;
+		border-radius: 10px;
+		font-size: 21px;
+		color: #fff;
+		text-align: center;	
+	}
+
+	.benefits li {
+		font-size: 16px;
+		line-height: 23px;
+		font-family: "OpenSans-Light";
+		line-height: 40px;
+		cursor: pointer;
+		font-weight: bold;	
+		padding-left: 85px;
+	}
+
+.benefits li:nth-child(1) {
+	background: url(../img/xp.png) 33px no-repeat;
+}
+.benefits li:nth-child(2) {
+	background: url(../img/report.png) 33px no-repeat;
+}
+.benefits li:nth-child(3) {
+	background: url(../img/time.png) 33px no-repeat;
+}
+.benefits li:nth-child(4) {
+	background: url(../img/workman.png) 33px no-repeat;
+}
+.benefits li:nth-child(5) {
+	background: url(../img/appliance.png) 33px no-repeat;
+}
+.benefits li:nth-child(6) {
+	background: url(../img/car.png) 33px no-repeat;
+}
+.benefits li:nth-child(7) {
+	background: url(../img/money.png) 33px no-repeat;
+}
 
 
 /* Small Devices, Tablets */
@@ -104,6 +155,10 @@
 		display: block;
 		width: 300px;
 		border: 1px solid #fff;
+	}
+
+	.visor ul li {
+		margin: 0 25px;
 	}
 
 	#submenu {
@@ -160,6 +215,12 @@
 	.phn_btn_ball {
     	margin: 0 auto;
     }
+    .visor ul li {
+		margin: 0;
+	}
+	.benefits {
+		max-width: 307px;
+	}
 }
 
 /* Custom, iPhone Retina */
