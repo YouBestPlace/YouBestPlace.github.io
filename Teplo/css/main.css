@@ -500,11 +500,10 @@ input {
 
 .phn_btn {
 	height: 420px;
-	
-	
-	line-height: 61px;
-	
-	overflow: hidden;
+    max-width: 400px;
+    line-height: 61px;
+    overflow: hidden;
+    margin: auto;
 }
 
 .phn_btn_ball {
