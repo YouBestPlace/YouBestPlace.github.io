@@ -1,0 +1,270 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.right li {
+		font-size: 16px;
+		background: url(../img/arrow.png) 0 no-repeat;
+		padding-left: 29px;
+	}
+	.phone {
+    display: inline-block;
+    padding: 15px 1px;
+	}
+	.left li {
+    font-size: 14px;
+    padding-left: 22px;
+	}
+
+	.menu-item a {
+		padding: 15px 30px;
+	}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu-item a {
+		padding: 15px 7px;
+	}
+	content {
+	display: block;
+	}
+	.menu {
+		display: none;
+	}
+	.phone_menu{
+		padding: 10px 40px 20px 0;
+	}
+
+	.phone{
+		margin-top: 18px;
+	}
+	.content {
+	text-align: center;
+	}
+	
+	.logo {
+	  	text-align: center;
+	  }
+	  .footer {
+	  	text-align: center;
+	}
+
+	article .cent {
+		text-align: center;
+	}
+
+	.left, .right {
+    display: none;
+}	
+	#submenu { 
+		display: none;
+		position: initial;
+	}
+
+	.menu-item {
+		display: block;
+		border-radius: 5px;
+	}
+
+	.visor ul li {
+		margin: 0 39px;
+	}
+
+	.visor ul li:nth-child(3) {
+		margin-top: 16px;
+	}
+	.benefits {
+		background-color: #DBEEF3;
+		border-radius: 40px;
+		display: block;
+		max-width: 450px;
+		margin: 10px auto;
+		padding-top: 1px;
+		padding-bottom: 10px;
+	}
+
+	.benefits h1 {
+		background-color: #30AD64;
+		padding: 10px 0;
+		margin-top: 20px;
+		border-radius: 10px;
+		font-size: 21px;
+		color: #fff;
+		text-align: center;	
+	}
+
+	.benefits li {
+		font-size: 16px;
+		line-height: 23px;
+		font-family: "OpenSans-Light";
+		line-height: 40px;
+		cursor: pointer;
+		font-weight: bold;	
+		padding-left: 48px;
+	}
+
+.benefits li:nth-child(1) {
+	background: url(../img/xp.png) 0px no-repeat;
+}
+.benefits li:nth-child(2) {
+	background: url(../img/report.png) 0px no-repeat;
+}
+.benefits li:nth-child(3) {
+	background: url(../img/time.png) 0px no-repeat;
+}
+.benefits li:nth-child(4) {
+	background: url(../img/workman.png) 0px no-repeat;
+}
+.benefits li:nth-child(5) {
+	background: url(../img/appliance.png) 0px no-repeat;
+}
+.benefits li:nth-child(6) {
+	background: url(../img/car.png) 0px no-repeat;
+}
+.benefits li:nth-child(7) {
+	background: url(../img/money.png) 0px no-repeat;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#nav {
+		display: none;
+		width: 300px;
+		transition: all 0.3s;
+	}
+
+	.slider	 {
+		display: none;
+	}
+
+	.medium_devices	 {
+		display: block;
+	}
+
+	.top_mnu{
+		padding: 10px 0;
+	}
+	.top_mnu li{
+	padding-right: 0;
+	}
+	.top_mnu li:hover {
+		background-color: #666;
+	}
+	.top_mnu li a {
+		display: block;
+	}
+	.top_mnu li a:hover {
+		color: #fff;
+	}
+	#icon_menu {
+	 	display: block;
+	} 
+	.menu-item {
+		display: block;
+		width: 300px;
+		border: 1px solid #fff;
+	}
+
+	.visor ul li {
+		margin: 0 25px;
+	}
+
+	#submenu {
+		display: none; 
+		position: initial;
+	}
+		
+	.left, .right {
+    display: none;
+	}
+	table thead {
+	  	font-size: 16px;
+	  }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.slider	 {
+		display: none;
+	}
+
+	.medium_devices	 {
+		display: none;
+	}
+
+	.small_devices	 {
+		display: block;
+	}
+
+	h1 {
+		text-align: center;
+	  }
+	.phn_btn {
+	    max-height: 300px;
+	    max-width: 300px;
+	    margin: auto;
+	}
+
+	.phn_btn_ball {
+    	max-width: 330px;
+    	max-height: 300px;
+    	padding: 23px 1px 1px 1px;
+    	line-height: 46px;
+	}	
+	.phn_btn .phones_2 {
+	   	background: url(../img/phone_2.png) 50px no-repeat;
+	}
+	.phn_btn p, .phn_btn .phone_2, .phn_btn .mail	{
+	 	font-size: 23px;
+	}
+	table thead {
+	  	font-size: 16px;
+	}
+	.phn_btn_ball {
+    	margin: 0 auto;
+    }
+    .visor ul li {
+		margin: 0;
+	}
+	.benefits {
+		max-width: 307px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	table thead {
+	  	font-size: 16px;
+	  }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
